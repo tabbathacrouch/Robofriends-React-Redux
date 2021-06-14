@@ -39,7 +39,7 @@
     },
     {
       "src": "robot.png",
-      "sizes": "300x300",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
