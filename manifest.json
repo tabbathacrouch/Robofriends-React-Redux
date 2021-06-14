@@ -4,8 +4,13 @@
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "48x48",
+      "sizes": "200x200",
       "type": "image/x-icon"
+    },
+    {
+      "src": "robot 512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     },
     {
       "src": "android-chrome-192x192.png",
@@ -29,11 +34,11 @@
     },
     {
       "src": "apple-touch-icon.png",
-      "sizes": "180x18 d0",
+      "sizes": "180x180",
       "type": "image/png"
     }
   ],
-  "start_url": "./",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
