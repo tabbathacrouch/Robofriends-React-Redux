@@ -5,6 +5,7 @@ import SearchBox from "../components/SearchBox";
 import { useSelector, useDispatch } from "react-redux";
 import { setSearchField, requestRobots } from "../actions";
 import "../style/App.css";
+import Header from "../components/Header";
 
 const App = ({ store }) => {
   const [searchResults, setSearchResults] = useState([]);
@@ -35,7 +36,7 @@ const App = ({ store }) => {
   return (
     <div className="tc">
       <Scroll>
-        <h1 className="f2">RoboFriends</h1>
+        <Header />
         <SearchBox SearchChange={onSearchChange} />
       </Scroll>
       {text === "" ? (
